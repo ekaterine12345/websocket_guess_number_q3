@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td>
+            <input type="text" id="username" placeholder="enter your username">
+            <button type="button" onclick="connect()">connect</button>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <textarea rows="15" cols="100" readonly="true" id="log"></textarea>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <input type="text" id="msg" placeholder="write here a message">
+            <button type="button" onclick="send()">send</button>
+        </td>
+    </tr>
+</table>
+
+<script src="websocket.js"></script>
+</body>
+</html>
